@@ -12,6 +12,7 @@
 
 ### Table of Contents
 
+-   [Running](#running)
 -   [Introduction](#introduction)
 -   [Authentication](#authentication)
 -   [Errors](#errors)
@@ -19,6 +20,20 @@
     -   [List of Error Codes](#errlist)
 -   [Core Resources](#core)
     -   [Users](#users)
+
+# Runnning after clone project <a name="running"></a>
+
+Install dependencies
+```
+composer install
+```
+
+(*) Make sure composer is installed
+
+Check Laravel version
+```
+php artisan --version
+```
 
 # Introduction <a name="introduction"></a>
 
