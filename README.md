@@ -30,9 +30,17 @@ composer install
 
 (*) Make sure composer is installed
 
-Check Laravel version
+Copy .env.example to .env, set 
 ```
-php artisan --version
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
+inside .env
+
+Execute db migration
+```
+php artisan migrate
 ```
 
 # Introduction <a name="introduction"></a>
